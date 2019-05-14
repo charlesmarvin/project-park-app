@@ -1,0 +1,17 @@
+* {
+	font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+::selection { background: #2ECC40; }
+
+.fg-accent {
+  color: #2ECC40;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
