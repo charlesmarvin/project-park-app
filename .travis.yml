@@ -1,0 +1,10 @@
+language: node_js
+deploy:
+  provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  organization: Project Park
+  space: staging
+  app_name: project-park-app
+  username: marvin.charles@me.com
+  password:
+    secure: LpdRwjamrK+3dn6FtGStvIah8GmQ3LplY3baBy2ohrlyoZNfWvphGP9UwgjxKQaZhKn8VleXX3j6T6giL3mHm0fBxLICeoCP4u4zf1Rh1sKA0MMxwAZ9NKLp556U6OAGOrlcNw3qM01R9KuUO1Pn+9xY2SQP+g+n98XvbLmsGFlsNKtGaaXoyn4ZPIPoqj56te+OrdUqE/RGqqNdlgah/16ysZMZ4rGxpjmCXZdePSaB37UV631ts9pJOtJIiXR7lQkrAtq5a3tPjzCI/HXxQKyP8376UdoHtwLzpgH1R92Pa0BmVX4ZS4v8/isPTV7pwjXJ9sm94oz30L8ljPwi6ZKS/fWi2I9ITrU+80xhJWygFQqmpHfNTN1Tm3MMWUiMIsLFZhOnr97POj7DeBC6x//maedskjreBzhUyZssMZsO/W4LSggB3733Ouni5rUcdCMdbH1e79eknnlqNG0jeOkomatJcdqg2dUn8d9XDJ9CpM6ofXX5FE/3ZkVaolY3Tj3OwVjLSIOtIDha4kyC5gkaXF7Uka0dZv71g07ewYm2IITQutA4YcJiy/fLmSNqzyMtj97QeFos3LTfzMGN2plC76zKTfiWIj6WgzjygA5AVvgRpuV0PlOX85cQ9us02Qs3FDQ4fao0pgLrwV7qhF8jHICTf7i2Ajcn+nUHM1A=
