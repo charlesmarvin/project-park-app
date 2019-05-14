@@ -1,10 +1,10 @@
 language: node_js
+
 deploy:
   provider: cloudfoundry
   api: https://api.run.pivotal.io
   organization: Project Park
   space: staging
   app_name: project-park-app
-  username: marvin.charles@me.com
-  password:
-    secure: eXBO9v/7ZoFPbcBsH+l4t/JvagFeR+oKxpspHEcj+sunZ71MLVfSXIrc9TIq3mpEwvGfi+S6BmQH7I2UtD43Hokd6HWK096hOXv9hbwtjpP0YXYM/BxWG7BBdL5a6mdzHmETSTWwlmyFpats4uY1jiT7dlLSg5Z792WIpU1Vt4MDFdiGO5bYramLCfCoxrIz4Xc1nNoj7jPDcTESH3g18Ns166Hnd9fDvTtm/ZdliLtOdHTbUe3wgT+ijfUBrFSnb15fuc6Y/oYFeSl3hR7TsXTRzogIqQ4WVzMu2snMbz+ivBGsQSIscecT+2G6yg0CRxCCV4nAYZ048gNNjyw2zd1FeCYCiSTpzNXienmGtP9FcGbFm/dJcZaepdZOcFRxO4poBscbajq3Ytk0PvZpGddF4vkSwIPQ0HinhFHfz53zpOFg2XrcogpxdTb+HaU2uTpn/YPm1jUwmp1AQfxBfWQw8bvFCToLNz8v4+SAEvkbcSBZQU6jB7+zRBqlZh4drhG1h0h+ju2bRa+fo6eLScsotrvTuygqOdr8Tf5RZUmufW05Z858wIum3QIPvPsIXA4CS2XIIgvpfSqRlUzFcMxgTFeP3km5X+pEGbqF2kPaU1Wbmh1nSPTEYjACAghQZU9rlz/qxStj0aaVeZvgxHGmbvrfHn7q3hfgGiLG2I0=
+  username: $CLOUD_FOUNDRY_USERNAME
+  password: $CLOUD_FOUNDRY_PASSWORD
