@@ -4,7 +4,7 @@ deploy:
   provider: cloudfoundry
   api: https://api.run.pivotal.io
   organization: Project Park
-  space: staging
+  space: development
   app_name: project-park-app
   username: $CLOUD_FOUNDRY_USERNAME
   password: $CLOUD_FOUNDRY_PASSWORD
