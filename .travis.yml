@@ -1,5 +1,11 @@
 language: node_js
 
+node_js:
+  - "node"
+
+script:
+  - npm run build
+
 deploy:
   provider: cloudfoundry
   api: https://api.run.pivotal.io
