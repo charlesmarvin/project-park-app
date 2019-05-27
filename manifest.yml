@@ -1,0 +1,5 @@
+---
+applications:
+- name: project-park-app
+  memory: 64MB
+  instances: 1
